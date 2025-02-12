@@ -1,0 +1,88 @@
+@page "/todolist"
+
+<PageTitle>Todo List</PageTitle>
+
+<h1>Todo List</h1>
+
+<form class="container" @onsubmit="saveTask">
+    <div>
+        <input type="text" @bind="newTask" class="form-control" placeholder="Task">
+    </div>
+    <button type="submit" class="btn btn-primary">@(update ? "Save Task" : "Add Task")</button>
+    @if (update)
+    {
+        <button type="button" class="btn btn-secondary" @onclick="cancelUpdate">Cancel</button>
+    }
+</form>
+
+<ul>
+    @for (int index = 0; index < tasks.Count; index++)
+    {
+        int localIndex = index; // Capture index value inside the loop
+        <li>
+            <div style="display: flex; align-items: center;">
+                @if (update && editingIndex == localIndex)
+                {
+                    <input type="text" @bind="newTask" class="form-control" placeholder="Edit Task">
+                }
+                else
+                {
+                    <p>@tasks[localIndex]</p>
+                }
+                <button class="btn btn-success" @onclick="() => updateTask(localIndex)">Update</button>
+                <button class="btn btn-danger" @onclick="() => deleteTask(localIndex)">Delete</button>
+            </div>
+        </li>
+    }
+</ul>
+
+@code {
+    private bool update = false;
+    private int editingIndex = -1;
+    private string newTask = string.Empty;
+    private List<string> tasks = new List<string>();
+
+    private void saveTask()
+    {
+        if (!string.IsNullOrWhiteSpace(newTask))
+        {
+            if (update)
+            {
+                // Update the existing task
+                tasks[editingIndex] = newTask;
+                update = false;
+                editingIndex = -1;
+            }
+            else
+            {
+                // Add a new task
+                tasks.Add(newTask);
+            }
+            newTask = ""; // Clear the input field
+        }
+    }
+
+    private void deleteTask(int index)
+    {
+        tasks.RemoveAt(index);
+        if (editingIndex == index)
+        {
+            update = false;
+            editingIndex = -1;
+            newTask = "";
+        }
+    }
+    private void updateTask(int index)
+    {
+        update = true;
+        editingIndex = index;
+        newTask = tasks[index]; // Pre-fill input with current task
+    }
+
+    private void cancelUpdate()
+    {
+        update = false;
+        editingIndex = -1;
+        newTask = "";
+    }
+}

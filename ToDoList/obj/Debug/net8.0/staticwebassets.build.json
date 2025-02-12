@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GYRM1pR8Sn6YInsnyBMblRGSlZBJ2daWGA+PBBuC/yU=",
+  "Hash": "MZWxqfDHb/LnGP7DccEKxJnlyQcsGEJewAb6S7ZqUJQ=",
   "Source": "ToDoList",
   "BasePath": "_content/ToDoList",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "v5pzmk1eed",
-      "Integrity": "I6CKRJ3Yq/E83UijMke9fEfaapB9U6xztNMPVSVemug=",
+      "Fingerprint": "kk6rivi0e7",
+      "Integrity": "/Fd8zcFlgqS3AT9JJ/T5iq6WMNmmom/zWGZCfEERzFk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\moujt\\Desktop\\ToDoList\\ToDoList\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ToDoList.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "v5pzmk1eed",
-      "Integrity": "I6CKRJ3Yq/E83UijMke9fEfaapB9U6xztNMPVSVemug=",
+      "Fingerprint": "kk6rivi0e7",
+      "Integrity": "/Fd8zcFlgqS3AT9JJ/T5iq6WMNmmom/zWGZCfEERzFk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\moujt\\Desktop\\ToDoList\\ToDoList\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ToDoList.bundle.scp.css"
@@ -483,7 +483,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5899"
+          "Value": "5875"
         },
         {
           "Name": "Content-Type",
@@ -491,11 +491,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"I6CKRJ3Yq/E83UijMke9fEfaapB9U6xztNMPVSVemug=\""
+          "Value": "\"/Fd8zcFlgqS3AT9JJ/T5iq6WMNmmom/zWGZCfEERzFk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 13:06:00 GMT"
+          "Value": "Tue, 11 Feb 2025 13:29:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -505,7 +505,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-I6CKRJ3Yq/E83UijMke9fEfaapB9U6xztNMPVSVemug="
+          "Value": "sha256-/Fd8zcFlgqS3AT9JJ/T5iq6WMNmmom/zWGZCfEERzFk="
+        }
+      ]
+    },
+    {
+      "Route": "ToDoList.kk6rivi0e7.bundle.scp.css",
+      "AssetFile": "C:\\Users\\moujt\\Desktop\\ToDoList\\ToDoList\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ToDoList.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5875"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/Fd8zcFlgqS3AT9JJ/T5iq6WMNmmom/zWGZCfEERzFk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 13:29:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kk6rivi0e7"
+        },
+        {
+          "Name": "label",
+          "Value": "ToDoList.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/Fd8zcFlgqS3AT9JJ/T5iq6WMNmmom/zWGZCfEERzFk="
+        }
+      ]
+    },
+    {
+      "Route": "ToDoList.kk6rivi0e7.styles.css",
+      "AssetFile": "C:\\Users\\moujt\\Desktop\\ToDoList\\ToDoList\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ToDoList.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5875"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/Fd8zcFlgqS3AT9JJ/T5iq6WMNmmom/zWGZCfEERzFk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 13:29:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kk6rivi0e7"
+        },
+        {
+          "Name": "label",
+          "Value": "ToDoList.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/Fd8zcFlgqS3AT9JJ/T5iq6WMNmmom/zWGZCfEERzFk="
         }
       ]
     },
@@ -520,7 +610,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5899"
+          "Value": "5875"
         },
         {
           "Name": "Content-Type",
@@ -528,11 +618,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"I6CKRJ3Yq/E83UijMke9fEfaapB9U6xztNMPVSVemug=\""
+          "Value": "\"/Fd8zcFlgqS3AT9JJ/T5iq6WMNmmom/zWGZCfEERzFk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 13:06:00 GMT"
+          "Value": "Tue, 11 Feb 2025 13:29:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -542,97 +632,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-I6CKRJ3Yq/E83UijMke9fEfaapB9U6xztNMPVSVemug="
-        }
-      ]
-    },
-    {
-      "Route": "ToDoList.v5pzmk1eed.bundle.scp.css",
-      "AssetFile": "C:\\Users\\moujt\\Desktop\\ToDoList\\ToDoList\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ToDoList.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5899"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"I6CKRJ3Yq/E83UijMke9fEfaapB9U6xztNMPVSVemug=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 13:06:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v5pzmk1eed"
-        },
-        {
-          "Name": "label",
-          "Value": "ToDoList.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-I6CKRJ3Yq/E83UijMke9fEfaapB9U6xztNMPVSVemug="
-        }
-      ]
-    },
-    {
-      "Route": "ToDoList.v5pzmk1eed.styles.css",
-      "AssetFile": "C:\\Users\\moujt\\Desktop\\ToDoList\\ToDoList\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ToDoList.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5899"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"I6CKRJ3Yq/E83UijMke9fEfaapB9U6xztNMPVSVemug=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 13:06:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v5pzmk1eed"
-        },
-        {
-          "Name": "label",
-          "Value": "ToDoList.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-I6CKRJ3Yq/E83UijMke9fEfaapB9U6xztNMPVSVemug="
+          "Value": "sha256-/Fd8zcFlgqS3AT9JJ/T5iq6WMNmmom/zWGZCfEERzFk="
         }
       ]
     }

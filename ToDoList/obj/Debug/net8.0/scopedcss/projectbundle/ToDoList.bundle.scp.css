@@ -89,12 +89,12 @@ main[b-5enq9oyd9l] {
     z-index: 1000;
 }
 
-    #blazor-error-ui .dismiss[b-5enq9oyd9l] {
-        cursor: pointer;
-        position: absolute;
-        right: 0.75rem;
-        top: 0.5rem;
-    }
+#blazor-error-ui .dismiss[b-5enq9oyd9l] {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
 /* _content/ToDoList/Components/Layout/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-x1d1l3omi2] {
     appearance: none;
